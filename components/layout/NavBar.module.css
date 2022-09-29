@@ -1,0 +1,50 @@
+.header {
+  width: 100%;
+  background-color: #f88f99;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  padding: 1rem;
+}
+
+.ul {
+  list-style: none;
+  display: flex;
+  padding: 1rem;
+}
+
+.li {
+  padding: 1rem;
+}
+
+.header a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.header a:hover,
+.header a:active {
+  color: lightgrey;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    font-size: 2rem;
+  }
+
+  .header a {
+    font-size: 1.5rem;
+  }
+}

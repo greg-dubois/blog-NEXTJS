@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.control label {
+  display: block;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.control input,
+.control textarea {
+  display: block;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  width: 90%;
+}
+
+.button {
+  width: 150px;
+  background-color: #f88f99;
+  border-radius: 5px;
+  margin: 2rem 0;
+  font-size: 1.5rem;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #ec6b78;
+}
